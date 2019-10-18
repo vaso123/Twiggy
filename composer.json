@@ -1,0 +1,17 @@
+{
+    "name": "vaso123/twiggy",
+    "description": "A plugin for roundcube what uses twig instead roundcube template.",
+    "type": "plugin",
+    "require": {
+        "twig/twig": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "Ferenc Vasoczki",
+            "email": "vaso123.software@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Twiggy\\": "src/"}
+    }
+}
